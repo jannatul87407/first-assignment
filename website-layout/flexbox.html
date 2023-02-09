@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .log-in {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .log-in input {
+            margin-top: 1em;
+            font-size: 1.0em;
+            padding: 5px 10px;
+        }
+
+        .log-in input[type="submit"] {
+            background-color: blueviolet;
+            border: 0vmax;
+            border-radius: 5px;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <section class="container">
+        <form class="log-in">
+            <h3>please loginn</h3>
+            <input type="email" name="" id="" placeholder="your mail name" required>
+            <input type="password" name="" id="" placeholder="password" required>
+            <input type="submit" value="log in">
+        </form>
+
+    </section>
+
+</body>
+
+</html>
